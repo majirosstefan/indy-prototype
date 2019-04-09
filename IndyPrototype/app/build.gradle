@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+import com.android.build.OutputFile;
+
+def enableSeparateBuildPerCPUArchitecture = false
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.indyprototype"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+
+    splits {
+        abi {
+            reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false  // If true, also generate a universal APK
+            include "armeabi-v7a", "x86", "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            // For each separate APK per architecture, set a unique version code as described here:
+            // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
+            def versionCodes = ["armeabi-v7a":1, "x86":2, "arm64-v8a": 3]
+            def abi = output.getFilter(OutputFile.ABI)
+            if (abi != null) {  // null for the universal-debug, universal-release variants
+                output.versionCodeOverride =
+                        versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+            }
+        }
+    }
+
+
+    packagingOptions {
+        pickFirst '**/libjsc.so'
+    }
+}
+
+
+configurations.all {
+    resolutionStrategy {
+        eachDependency { DependencyResolveDetails details ->
+            if (details.requested.name == 'android-jsc') {
+                details.useTarget group: details.requested.group, name: 'android-jsc-intl', version: 'r241213'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:2.2.1'
+    androidTestImplementation 'com.android.support:support-annotations:24.0.0'
+
+    //commons
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'commons-io:commons-io:2.6'
+    //logging
+    implementation 'de.mindpipe.android:android-logging-log4j:1.0.3'
+    implementation 'log4j:log4j:1.2.17'
+    implementation 'org.slf4j:slf4j-android:1.7.26'
+
+    //indy dependency
+    implementation 'org.hyperledger:indy:1.8.2'
+}
+
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}
+

@@ -1,0 +1,3 @@
+rootProject.name = 'indy-prototype'
+
+include ':app'

@@ -1,0 +1,766 @@
+2019-04-09 16:06:12.669 24930-24930/? I/e.indyprototyp: Not late-enabling -Xcheck:jni (already on)
+2019-04-09 16:06:12.681 24930-24930/? W/e.indyprototyp: Unexpected CPU variant for X86 using defaults: x86
+2019-04-09 16:06:12.736 24930-24930/com.example.indyprototype W/ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.example.indyprototype]: x86, null instrumentation[com.example.indyprototype.test]: null, null
+2019-04-09 16:06:12.740 24930-24930/com.example.indyprototype I/e.indyprototyp: The ClassLoaderContext is a special shared library.
+2019-04-09 16:06:12.865 24930-24930/com.example.indyprototype I/chatty: uid=10106(com.example.indyprototype) identical 2 lines
+2019-04-09 16:06:12.865 24930-24930/com.example.indyprototype I/e.indyprototyp: The ClassLoaderContext is a special shared library.
+2019-04-09 16:06:12.963 24930-24930/com.example.indyprototype W/e.indyprototyp: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+2019-04-09 16:06:12.964 24930-24930/com.example.indyprototype W/e.indyprototyp: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+2019-04-09 16:06:12.979 24930-24930/com.example.indyprototype I/MonitoringInstr: Instrumentation started on process com.example.indyprototype
+2019-04-09 16:06:12.983 24930-24930/com.example.indyprototype I/MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk", zip file "/data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86, /data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk!/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!/lib/x86, /system/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk", zip file "/data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86, /data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk!/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!/lib/x86, /system/lib]]]'
+2019-04-09 16:06:12.987 24930-24930/com.example.indyprototype I/MonitoringInstr: No JSBridge.
+2019-04-09 16:06:12.990 24930-24947/com.example.indyprototype I/MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk", zip file "/data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86, /data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk!/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!/lib/x86, /system/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk", zip file "/data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86, /data/app/com.example.indyprototype.test-xN_EBirJC9MXnN02Nr_waQ==/base.apk!/lib/x86, /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!/lib/x86, /system/lib]]]'
+2019-04-09 16:06:13.004 24930-24947/com.example.indyprototype D/InfraTrack: Tracking disabled due to lack of internet permissions
+2019-04-09 16:06:13.004 24930-24947/com.example.indyprototype I/UsageTrackerFacilitator: Usage tracking disabled
+2019-04-09 16:06:13.039 24930-24947/com.example.indyprototype D/TestExecutor: Adding listener android.support.test.internal.runner.listener.LogRunListener
+2019-04-09 16:06:13.041 24930-24947/com.example.indyprototype D/TestExecutor: Adding listener android.support.test.internal.runner.listener.InstrumentationResultPrinter
+2019-04-09 16:06:13.041 24930-24947/com.example.indyprototype D/TestExecutor: Adding listener android.support.test.internal.runner.listener.ActivityFinisherRunListener
+2019-04-09 16:06:13.043 24930-24947/com.example.indyprototype I/TestRunner: run started: 1 tests
+2019-04-09 16:06:13.060 24930-24947/com.example.indyprototype I/TestRunner: started: testErrors(com.example.indyprototype.GetErrorInstrumentedTest)
+2019-04-09 16:06:13.064 24930-24930/com.example.indyprototype I/MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+2019-04-09 16:06:13.131 24930-24949/com.example.indyprototype W/System.err: SLF4J: No SLF4J providers were found.
+2019-04-09 16:06:13.131 24930-24949/com.example.indyprototype W/System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-04-09 16:06:13.131 24930-24949/com.example.indyprototype W/System.err: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+2019-04-09 16:06:13.164 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:1934] Thread[16,tid=24950,Native,Thread*=0xe51de000,peer=0x13b00000,"Thread-22"] attempting to detach while still running code
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] Runtime aborting...
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] Dumping all threads without appropriate locks held: thread list lock mutator lock
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] All threads:
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] DALVIK THREADS (16):
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Thread-22" prio=5 tid=16 Runnable
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=0 dsCount=0 flags=0 obj=0x13b00000 self=0xe51de000
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24950 nice=0 cgrp=default sched=0/0 handle=0xd00d4970
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=R schedstat=( 14202681 0 13 ) utm=1 stm=0 core=2 HZ=100
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xcfed5000-0xcfed7000 stackSize=2MB
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes= "abort lock" "mutator lock"(shared held)
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 004152f6  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+198)
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0051048e  /system/lib/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool, BacktraceMap*, bool) const+382)
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0050b743  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool, BacktraceMap*, bool) const+83)
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 0052e564  /system/lib/libart.so (art::DumpCheckpoint::Run(art::Thread*)+916)
+2019-04-09 16:06:13.224 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 00526286  /system/lib/libart.so (art::ThreadList::RunCheckpoint(art::Closure*, art::Closure*)+534)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 005254d4  /system/lib/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool)+1316)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 004efdcc  /system/lib/libart.so (art::AbortState::DumpAllThreads(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, art::Thread*) const+284)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 004dc52f  /system/lib/libart.so (art::Runtime::Abort(char const*)+287)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 005cd833  /system/lib/libart.so (_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_+35)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #09 pc 00007ccc  /system/lib/libbase.so (android::base::LogMessage::~LogMessage()+828)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #10 pc 004dc3d4  /system/lib/libart.so (art::Runtime::DetachCurrentThread()+500)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #11 pc 00322645  /system/lib/libart.so (art::JII::DetachCurrentThread(_JavaVM*)+69)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #12 pc 000e3355  /system/lib/libart.so (art::(anonymous namespace)::CheckJII::DetachCurrentThread(_JavaVM*)+117)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #13 pc 0000ca9f  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #14 pc 00010bb2  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #15 pc 00010f65  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #16 pc 00467282  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (_$LT$indy..utils..logger..LibindyLogger$u20$as$u20$log..Log$GT$::log::h5cce1329b2b38854+690)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #17 pc 0105b57a  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (log::__private_api_log::h038de7da6765e5c0+138)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #18 pc 00385e69  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (indy_get_current_error+121)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #19 pc 00010ea9  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (ffi_call_SYSV+25)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #20 pc 00010b20  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (ffi_call+176)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #21 pc 00005200  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #22 pc 00007b2f  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (Java_com_sun_jna_Native_invokeInt+63)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #23 pc 005f6b97  /system/lib/libart.so (art_quick_generic_jni_trampoline+71)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #24 pc 005f0d52  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #25 pc 000a30df  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+239)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #26 pc 0029bca2  /system/lib/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+338)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #27 pc 00293e48  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1048)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #28 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #29 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #30 pc 00152f76  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Function.invoke+838)
+2019-04-09 16:06:13.225 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #31 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #32 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #33 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #34 pc 005bc493  /system/lib/libart.so (MterpInvokeVirtual+691)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #35 pc 005e2d21  /system/lib/libart.so (ExecuteMterpImpl+14241)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #36 pc 00153168  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Function.invoke+348)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #37 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #38 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #39 pc 00295229  /system/lib/libart.so (bool art::interpreter::DoCall<true, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+985)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #40 pc 005be028  /system/lib/libart.so (MterpInvokeVirtualRange+664)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #41 pc 005e3021  /system/lib/libart.so (ExecuteMterpImpl+15009)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #42 pc 00153f5c  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Library$Handler.invoke+452)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #43 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #44 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #45 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #46 pc 005bd574  /system/lib/libart.so (MterpInvokeInterface+1444)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #47 pc 005e2f21  /system/lib/libart.so (ExecuteMterpImpl+14753)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #48 pc 000cd0be  /system/framework/boot.vdex (java.lang.reflect.Proxy.invoke+4)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #49 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #50 pc 0026c68e  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*)+126)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #51 pc 005a953d  /system/lib/libart.so (artQuickToInterpreterBridge+1277)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #52 pc 005f6c6d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #53 pc 005f0d52  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #54 pc 000a30df  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+239)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #55 pc 004d3349  /system/lib/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #56 pc 004d416d  /system/lib/libart.so (art::InvokeWithJValues(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue*)+429)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #57 pc 0039ab1d  /system/lib/libart.so (art::JNI::CallStaticObjectMethodA(_JNIEnv*, _jclass*, _jmethodID*, jvalue*)+925)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #58 pc 000da848  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodA(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, jvalue*, art::Primitive::Type, art::InvokeType)+1720)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #59 pc 000c61b9  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallStaticObjectMethodA(_JNIEnv*, _jclass*, _jmethodID*, jvalue*)+73)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #60 pc 00586243  /system/lib/libart.so (art::InvokeProxyInvocationHandler(art::ScopedObjectAccessAlreadyRunnable&, char const*, _jobject*, _jobject*, std::__1::vector<jvalue, std::__1::allocator<jvalue>>&)+627)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #61 pc 005aa627  /system/lib/libart.so (artQuickProxyInvokeHandler+1335)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #62 pc 005f68c6  /system/lib/libart.so (art_quick_proxy_invoke_handler+54)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #63 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #64 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #65 pc 0029bca2  /system/lib/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+338)
+2019-04-09 16:06:13.226 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #66 pc 00293e48  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1048)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #67 pc 005bd574  /system/lib/libart.so (MterpInvokeInterface+1444)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #68 pc 005e2f21  /system/lib/libart.so (ExecuteMterpImpl+14753)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #69 pc 001d9cc4  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>+20)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #70 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #71 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #72 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #73 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #74 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #75 pc 001d9d30  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #76 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #77 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #78 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #79 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #80 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #81 pc 001da0e4  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException.<init>+12)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #82 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #83 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #84 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #85 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #86 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #87 pc 001e0a60  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.WalletExistsException.<init>+16)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #88 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #89 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #90 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #91 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #92 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #93 pc 001d9f82  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException.fromSdkError+498)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #94 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #95 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.227 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #96 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #97 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #98 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #99 pc 001da128  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyJava$API.checkResult+24)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #100 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #101 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #102 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #103 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #104 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #105 pc 001e0b98  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.Wallet.access$100)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #106 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #107 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #108 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #109 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #110 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #111 pc 001e08ec  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.Wallet$1.callback+8)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #112 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #113 pc 0026c68e  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*)+126)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #114 pc 005a953d  /system/lib/libart.so (artQuickToInterpreterBridge+1277)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #115 pc 005f6c6d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #116 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #117 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #118 pc 004d3349  /system/lib/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #119 pc 004d502e  /system/lib/libart.so (art::InvokeMethod(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned int)+1422)
+2019-04-09 16:06:13.228 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #120 pc 00449783  /system/lib/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*)+83)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Native.invokeInt(Native method)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Function.invoke(Function.java:419)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Function.invoke(Function.java:354)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Library$Handler.invoke(Library.java:244)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Proxy.invoke(Proxy.java:1006)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.LibIndy$API.indy_get_current_error(LibIndy.java:-2)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>(IndyException.java:74)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>(IndyException.java:67)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException.<init>(IndyException.java:36)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.WalletExistsException.<init>(WalletExistsException.java:19)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException.fromSdkError(IndyException.java:126)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyJava$API.checkResult(IndyJava.java:92)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.Wallet.access$100(Wallet.java:19)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.Wallet$1.callback(Wallet.java:51)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Method.invoke(Native method)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.CallbackReference$DefaultCallbackProxy.invokeCallback(CallbackReference.java:520)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.CallbackReference$DefaultCallbackProxy.callback(CallbackReference.java:551)
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "main" prio=5 tid=1 Native
+2019-04-09 16:06:13.229 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x74582ee0 self=0xeaf59000
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24930 nice=0 cgrp=default sched=0/0 handle=0xefac8494
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 296055158 3459604 78 ) utm=18 stm=11 core=3 HZ=100
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xff2fb000-0xff2fd000 stackSize=8MB
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: ep_poll+0x28e/0x33f
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: SyS_epoll_wait+0x96/0xb4
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: SyS_epoll_pwait+0x93/0x114
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0007621b  /system/lib/libc.so (__epoll_pwait+43)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 00031e8d  /system/lib/libc.so (epoll_wait+45)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 00013567  /system/lib/libutils.so (android::Looper::pollInner(int)+183)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0001340b  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+43)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 000e414b  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+59)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.MessageQueue.nativePollOnce(Native method)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.MessageQueue.next(MessageQueue.java:326)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.Looper.loop(Looper.java:160)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.app.ActivityThread.main(ActivityThread.java:6669)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Method.invoke(Native method)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Jit thread pool worker thread 0" prio=5 tid=2 Native
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13300030 self=0xe5188000
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24935 nice=9 cgrp=default sched=0/0 handle=0xe517f970
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 20107172 157030 36 ) utm=0 stm=2 core=3 HZ=100
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xe5081000-0xe5083000 stackSize=1022KB
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.230 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 005300c5  /system/lib/libart.so (art::ThreadPool::GetTask(art::Thread*)+261)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 0052f495  /system/lib/libart.so (art::ThreadPoolWorker::Run()+117)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 0052eebb  /system/lib/libart.so (art::ThreadPoolWorker::Callback(void*)+139)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Signal Catcher" prio=5 tid=3 WaitingInMainSignalCatcherLoop
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13340020 self=0xeaf41000
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24936 nice=0 cgrp=default sched=0/0 handle=0xe507e970
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 893630 0 1 ) utm=0 stm=0 core=0 HZ=100
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xe4f83000-0xe4f85000 stackSize=1010KB
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_sigtimedwait+0xf7/0x1e3
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_rt_sigtimedwait+0x9e/0xec
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 00076861  /system/lib/libc.so (__rt_sigtimedwait+33)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0002fcf9  /system/lib/libc.so (sigwait+73)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 004fb409  /system/lib/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+265)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 004f9b20  /system/lib/libart.so (art::SignalCatcher::Run(void*)+320)
+2019-04-09 16:06:13.231 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "ADB-JDWP Connection Control Thread" prio=5 tid=4 WaitingInMainDebuggerLoop
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4ec20 self=0xe518bc00
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24937 nice=0 cgrp=default sched=0/0 handle=0xd3852970
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 8360305 698949 24 ) utm=0 stm=0 core=0 HZ=100
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd3757000-0xd3759000 stackSize=1010KB
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: poll_schedule_timeout+0x41/0x5a
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_sys_poll+0x41d/0x4d6
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_ppoll+0xd5/0x172
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 000765c6  /system/lib/libc.so (__ppoll+38)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0002d1da  /system/lib/libc.so (poll+90)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 0004c19f  /system/lib/libc.so (__poll_chk+47)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0000670b  /system/lib/libadbconnection.so (adbconnection::AdbConnectionState::RunPollLoop(art::Thread*)+955)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00004a16  /system/lib/libadbconnection.so (adbconnection::CallbackFunction(void*)+1110)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "ReferenceQueueDaemon" prio=5 tid=5 Waiting
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4ecc0 self=0xea4bf000
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24938 nice=4 cgrp=default sched=0/0 handle=0xd3754970
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 3796123 0 9 ) utm=0 stm=0 core=3 HZ=100
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd3651000-0xd3653000 stackSize=1042KB
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.232 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0040fd36  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+630)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00411d65  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+453)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 004310b2  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+82)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Native method)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - waiting on <0x0432ead1> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:178)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - locked <0x0432ead1> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.run(Thread.java:764)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "FinalizerDaemon" prio=5 tid=6 Waiting
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4ed60 self=0xea4bf600
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24939 nice=4 cgrp=default sched=0/0 handle=0xd364e970
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 2634764 316198 11 ) utm=0 stm=0 core=0 HZ=100
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd354b000-0xd354d000 stackSize=1042KB
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0040fd36  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+630)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00411d65  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+453)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00431125  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+85)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Native method)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - waiting on <0x0bdfd936> (a java.lang.Object)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Object.java:422)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - locked <0x0bdfd936> (a java.lang.Object)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)
+2019-04-09 16:06:13.233 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:232)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.run(Thread.java:764)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "FinalizerWatchdogDaemon" prio=5 tid=7 Waiting
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4ee00 self=0xea4bfc00
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24940 nice=4 cgrp=default sched=0/0 handle=0xd3548970
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 1324925 0 2 ) utm=0 stm=0 core=1 HZ=100
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd3445000-0xd3447000 stackSize=1042KB
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0040fd36  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+630)
+2019-04-09 16:06:13.234 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00411d65  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+453)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 004310b2  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+82)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Native method)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - waiting on <0x08422037> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:297)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - locked <0x08422037> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:277)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.run(Thread.java:764)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "HeapTaskDaemon" prio=5 tid=8 WaitingForTaskProcessor
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c4eea0 self=0xea4c0800
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24941 nice=4 cgrp=default sched=0/0 handle=0xd3442970
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 1923756 0 6 ) utm=0 stm=0 core=1 HZ=100
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd333f000-0xd3341000 stackSize=1042KB
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0023a7b2  /system/lib/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+402)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 0023b192  /system/lib/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+98)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 004246c7  /system/lib/libart.so (art::VMRuntime_runHeapTasks(_JNIEnv*, _jobject*)+55)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:475)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Daemons$Daemon.run(Daemons.java:103)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.run(Thread.java:764)
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Binder:24930_1" prio=5 tid=9 Native
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13380020 self=0xe256e600
+2019-04-09 16:06:13.235 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24942 nice=0 cgrp=default sched=0/0 handle=0xd323e970
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 4322155 778331 11 ) utm=0 stm=0 core=1 HZ=100
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd3143000-0xd3145000 stackSize=1010KB
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_thread_read+0x36c/0xda1
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl_write_read.constprop.43+0x15e/0x250
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl+0x195/0x4e5
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_ioctl+0x1cb/0xced
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0007649c  /system/lib/libc.so (__ioctl+28)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0002a89c  /system/lib/libc.so (ioctl+60)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 00045247  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+391)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0004545a  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+42)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00045d58  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+72)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00070f59  /system/lib/libbinder.so (android::PoolThread::threadLoop()+41)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 0000e616  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+326)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 000741fb  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+171)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #09 pc 0000df76  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+246)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #10 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #11 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Binder:24930_2" prio=5 tid=10 Native
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13400020 self=0xe5192800
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24943 nice=0 cgrp=default sched=0/0 handle=0xd3140970
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 13491833 0 11 ) utm=1 stm=0 core=2 HZ=100
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd3045000-0xd3047000 stackSize=1010KB
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_thread_read+0x36c/0xda1
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl_write_read.constprop.43+0x15e/0x250
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl+0x195/0x4e5
+2019-04-09 16:06:13.236 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_ioctl+0x1cb/0xced
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0007649c  /system/lib/libc.so (__ioctl+28)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0002a89c  /system/lib/libc.so (ioctl+60)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 00045247  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+391)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0004545a  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+42)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00045d58  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+72)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00070f59  /system/lib/libbinder.so (android::PoolThread::threadLoop()+41)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 0000e616  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+326)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 000741fb  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+171)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #09 pc 0000df76  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+246)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #10 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #11 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Binder:24930_3" prio=5 tid=11 Native
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13440020 self=0xe2569600
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24944 nice=0 cgrp=default sched=0/0 handle=0xd3042970
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 2673393 0 4 ) utm=0 stm=0 core=3 HZ=100
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd2f47000-0xd2f49000 stackSize=1010KB
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_thread_read+0x36c/0xda1
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl_write_read.constprop.43+0x15e/0x250
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: binder_ioctl+0x195/0x4e5
+2019-04-09 16:06:13.237 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_ioctl+0x1cb/0xced
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0007649c  /system/lib/libc.so (__ioctl+28)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0002a89c  /system/lib/libc.so (ioctl+60)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 00045247  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+391)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0004545a  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+42)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00045d58  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+72)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00070f59  /system/lib/libbinder.so (android::PoolThread::threadLoop()+41)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 0000e616  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+326)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 000741fb  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+171)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #09 pc 0000df76  /system/lib/libutils.so (thread_data_t::trampoline(thread_data_t const*)+246)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #10 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #11 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Profile Saver" prio=5 tid=12 Native
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13480020 self=0xe5196400
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24945 nice=9 cgrp=default sched=0/0 handle=0xd267f970
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 604204 77959 2 ) utm=0 stm=0 core=0 HZ=100
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd2584000-0xd2586000 stackSize=1010KB
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.238 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.239 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.239 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.239 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.239 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.239 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000ac054  /system/lib/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long long, int)+148)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 003608b9  /system/lib/libart.so (art::ProfileSaver::Run()+201)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 00364c5f  /system/lib/libart.so (art::ProfileSaver::RunProfileSaverThread(void*)+95)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   (no managed stack frames)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Instr: android.support.test.runner.AndroidJUnitRunner" prio=5 tid=13 TimedWaiting
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c762f8 self=0xea4e9e00
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24947 nice=-8 cgrp=default sched=0/0 handle=0xd20a2970
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 74663177 1351393 19 ) utm=7 stm=0 core=1 HZ=100
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd1f9f000-0xd1fa1000 stackSize=1042KB
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.240 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000ac054  /system/lib/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long long, int)+148)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 0040fd5a  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+666)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 00411d65  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+453)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00431125  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+85)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Native method)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - waiting on <0x0b82a9a4> (a java.lang.Object)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.parkFor$(Thread.java:2137)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - locked <0x0b82a9a4> (a java.lang.Object)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at sun.misc.Unsafe.park(Unsafe.java:358)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:447)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.statements.FailOnTimeout.getResult(FailOnTimeout.java:141)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.statements.FailOnTimeout.evaluate(FailOnTimeout.java:127)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.Suite.runChild(Suite.java:128)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.Suite.runChild(Suite.java:27)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+2019-04-09 16:06:13.241 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "InstrumentationConnectionThread" prio=5 tid=14 Native
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x134cb228 self=0xe379bc00
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24948 nice=0 cgrp=default sched=0/0 handle=0xd1f9c970
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 645517 0 1 ) utm=0 stm=0 core=3 HZ=100
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd1e99000-0xd1e9b000 stackSize=1042KB
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: ep_poll+0x28e/0x33f
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: SyS_epoll_wait+0x96/0xb4
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: SyS_epoll_pwait+0x93/0x114
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b39  [vdso] (__kernel_vsyscall+9)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0007621b  /system/lib/libc.so (__epoll_pwait+43)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 00031e8d  /system/lib/libc.so (epoll_wait+45)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 00013567  /system/lib/libutils.so (android::Looper::pollInner(int)+183)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0001340b  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+43)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 000e414b  /system/lib/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long long, int)+59)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.MessageQueue.nativePollOnce(Native method)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.MessageQueue.next(MessageQueue.java:326)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.Looper.loop(Looper.java:160)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.os.HandlerThread.run(HandlerThread.java:65)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Time-limited test" prio=5 tid=15 Waiting
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=1 dsCount=0 flags=1 obj=0x1356ba20 self=0xe371fc00
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24949 nice=0 cgrp=default sched=0/0 handle=0xd1e96970
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=S schedstat=( 79363697 659930 16 ) utm=7 stm=0 core=1 HZ=100
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xd1d93000-0xd1d95000 stackSize=1042KB
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes=
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait_queue_me+0xcb/0x11b
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: futex_wait+0x120/0x25e
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_futex+0xbe/0x468
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: compat_SyS_futex+0xb9/0x13b
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: do_fast_syscall_32+0xd5/0x148
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   kernel: sysenter_flags_fixed+0x8/0x12
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 00000b37  [vdso] (__kernel_vsyscall+7)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0001fdf8  /system/lib/libc.so (syscall+40)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 000abbde  /system/lib/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 000abb63  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+35)
+2019-04-09 16:06:13.242 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 0040fd36  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+630)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 00411d65  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+453)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00431125  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+85)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Object.wait(Native method)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - waiting on <0x0f2a630d> (a java.lang.Object)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.parkFor$(Thread.java:2137)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   - locked <0x0f2a630d> (a java.lang.Object)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at sun.misc.Unsafe.park(Unsafe.java:358)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1721)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3443)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1750)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1921)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.example.indyprototype.GetErrorInstrumentedTest.testErrors(GetErrorInstrumentedTest.java:26)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Method.invoke(Native method)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.Thread.run(Thread.java:764)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] Aborting thread:
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] "Thread-22" prio=5 tid=16 Native
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | group="" sCount=0 dsCount=0 flags=0 obj=0x13b00000 self=0xe51de000
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | sysTid=24950 nice=0 cgrp=default sched=0/0 handle=0xd00d4970
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | state=R schedstat=( 52222449 495586 44 ) utm=3 stm=2 core=0 HZ=100
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | stack=0xcfed5000-0xcfed7000 stackSize=2MB
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   | held mutexes= "abort lock"
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #00 pc 004152f6  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+198)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #01 pc 0051048e  /system/lib/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool, BacktraceMap*, bool) const+382)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #02 pc 0050b743  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, bool, BacktraceMap*, bool) const+83)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #03 pc 004efe1b  /system/lib/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, art::Thread*) const+59)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #04 pc 004dc5a9  /system/lib/libart.so (art::Runtime::Abort(char const*)+409)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #05 pc 005cd833  /system/lib/libart.so (_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_+35)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #06 pc 00007ccc  /system/lib/libbase.so (android::base::LogMessage::~LogMessage()+828)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #07 pc 004dc3d4  /system/lib/libart.so (art::Runtime::DetachCurrentThread()+500)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #08 pc 00322645  /system/lib/libart.so (art::JII::DetachCurrentThread(_JavaVM*)+69)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #09 pc 000e3355  /system/lib/libart.so (art::(anonymous namespace)::CheckJII::DetachCurrentThread(_JavaVM*)+117)
+2019-04-09 16:06:13.243 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #10 pc 0000ca9f  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #11 pc 00010bb2  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #12 pc 00010f65  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #13 pc 00467282  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (_$LT$indy..utils..logger..LibindyLogger$u20$as$u20$log..Log$GT$::log::h5cce1329b2b38854+690)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #14 pc 0105b57a  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (log::__private_api_log::h038de7da6765e5c0+138)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #15 pc 00385e69  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (indy_get_current_error+121)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #16 pc 00010ea9  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (ffi_call_SYSV+25)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #17 pc 00010b20  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (ffi_call+176)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #18 pc 00005200  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #19 pc 00007b2f  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (Java_com_sun_jna_Native_invokeInt+63)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #20 pc 005f6b97  /system/lib/libart.so (art_quick_generic_jni_trampoline+71)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #21 pc 005f0d52  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #22 pc 000a30df  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+239)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #23 pc 0029bca2  /system/lib/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+338)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #24 pc 00293e48  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1048)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #25 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #26 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #27 pc 00152f76  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Function.invoke+838)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #28 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #29 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #30 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #31 pc 005bc493  /system/lib/libart.so (MterpInvokeVirtual+691)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #32 pc 005e2d21  /system/lib/libart.so (ExecuteMterpImpl+14241)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #33 pc 00153168  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Function.invoke+348)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #34 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #35 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #36 pc 00295229  /system/lib/libart.so (bool art::interpreter::DoCall<true, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+985)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #37 pc 005be028  /system/lib/libart.so (MterpInvokeVirtualRange+664)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #38 pc 005e3021  /system/lib/libart.so (ExecuteMterpImpl+15009)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #39 pc 00153f5c  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.Library$Handler.invoke+452)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #40 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.244 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #41 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #42 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #43 pc 005bd574  /system/lib/libart.so (MterpInvokeInterface+1444)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #44 pc 005e2f21  /system/lib/libart.so (ExecuteMterpImpl+14753)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #45 pc 000cd0be  /system/framework/boot.vdex (java.lang.reflect.Proxy.invoke+4)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #46 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #47 pc 0026c68e  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*)+126)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #48 pc 005a953d  /system/lib/libart.so (artQuickToInterpreterBridge+1277)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #49 pc 005f6c6d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #50 pc 005f0d52  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #51 pc 000a30df  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+239)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #52 pc 004d3349  /system/lib/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #53 pc 004d416d  /system/lib/libart.so (art::InvokeWithJValues(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, jvalue*)+429)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #54 pc 0039ab1d  /system/lib/libart.so (art::JNI::CallStaticObjectMethodA(_JNIEnv*, _jclass*, _jmethodID*, jvalue*)+925)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #55 pc 000da848  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodA(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, jvalue*, art::Primitive::Type, art::InvokeType)+1720)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #56 pc 000c61b9  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallStaticObjectMethodA(_JNIEnv*, _jclass*, _jmethodID*, jvalue*)+73)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #57 pc 00586243  /system/lib/libart.so (art::InvokeProxyInvocationHandler(art::ScopedObjectAccessAlreadyRunnable&, char const*, _jobject*, _jobject*, std::__1::vector<jvalue, std::__1::allocator<jvalue>>&)+627)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #58 pc 005aa627  /system/lib/libart.so (artQuickProxyInvokeHandler+1335)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #59 pc 005f68c6  /system/lib/libart.so (art_quick_proxy_invoke_handler+54)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #60 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #61 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #62 pc 0029bca2  /system/lib/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+338)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #63 pc 00293e48  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1048)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #64 pc 005bd574  /system/lib/libart.so (MterpInvokeInterface+1444)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #65 pc 005e2f21  /system/lib/libart.so (ExecuteMterpImpl+14753)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #66 pc 001d9cc4  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>+20)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #67 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #68 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #69 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #70 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #71 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #72 pc 001d9d30  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #73 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #74 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #75 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.245 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #76 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #77 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #78 pc 001da0e4  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException.<init>+12)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #79 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #80 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #81 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #82 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #83 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #84 pc 001e0a60  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.WalletExistsException.<init>+16)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #85 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #86 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #87 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #88 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #89 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #90 pc 001d9f82  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyException.fromSdkError+498)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #91 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #92 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #93 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #94 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #95 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #96 pc 001da128  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.IndyJava$API.checkResult+24)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #97 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #98 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #99 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #100 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #101 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #102 pc 001e0b98  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.Wallet.access$100)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #103 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #104 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #105 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #106 pc 005bdc5f  /system/lib/libart.so (MterpInvokeStatic+207)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #107 pc 005e2ea1  /system/lib/libart.so (ExecuteMterpImpl+14625)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #108 pc 001e08ec  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (org.hyperledger.indy.sdk.wallet.Wallet$1.callback+8)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #109 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #110 pc 0026c68e  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*)+126)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #111 pc 005a953d  /system/lib/libart.so (artQuickToInterpreterBridge+1277)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #112 pc 005f6c6d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #113 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #114 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #115 pc 004d3349  /system/lib/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #116 pc 004d502e  /system/lib/libart.so (art::InvokeMethod(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned int)+1422)
+2019-04-09 16:06:13.246 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #117 pc 00449783  /system/lib/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*)+83)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #118 pc 0011d778  /system/framework/x86/boot.oat (offset 114000) (java.lang.Class.getDeclaredMethodInternal [DEDUPED]+168)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #119 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #120 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #121 pc 0029bca2  /system/lib/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+338)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #122 pc 00293e48  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1048)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #123 pc 005bc493  /system/lib/libart.so (MterpInvokeVirtual+691)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #124 pc 005e2d21  /system/lib/libart.so (ExecuteMterpImpl+14241)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #125 pc 00150b3a  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.CallbackReference$DefaultCallbackProxy.invokeCallback+118)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #126 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #127 pc 0026c79c  /system/lib/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+220)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #128 pc 00293e2b  /system/lib/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+1019)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #129 pc 005bda66  /system/lib/libart.so (MterpInvokeDirect+342)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #130 pc 005e2e21  /system/lib/libart.so (ExecuteMterpImpl+14497)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #131 pc 001507d4  /dev/ashmem/dalvik-classes2.dex extracted in memory from /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/base.apk!classes2.dex (deleted) (com.sun.jna.CallbackReference$DefaultCallbackProxy.callback)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #132 pc 00266216  /system/lib/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.2093054539+598)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #133 pc 0026c68e  /system/lib/libart.so (art::interpreter::EnterInterpreterFromEntryPoint(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*)+126)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #134 pc 005a953d  /system/lib/libart.so (artQuickToInterpreterBridge+1277)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #135 pc 005f6c6d  /system/lib/libart.so (art_quick_to_interpreter_bridge+77)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #136 pc 005f0b82  /system/lib/libart.so (art_quick_invoke_stub+338)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #137 pc 000a30ce  /system/lib/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+222)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #138 pc 004d3349  /system/lib/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+89)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #139 pc 004d4937  /system/lib/libart.so (art::InvokeVirtualOrInterfaceWithVarArgs(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, char*)+471)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #140 pc 00373cef  /system/lib/libart.so (art::JNI::CallObjectMethodV(_JNIEnv*, _jobject*, _jmethodID*, char*)+943)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #141 pc 000d8b6e  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, char*, art::Primitive::Type, art::InvokeType)+1070)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #142 pc 000c3fd1  /system/lib/libart.so (art::(anonymous namespace)::CheckJNI::CallObjectMethod(_JNIEnv*, _jobject*, _jmethodID*, ...)+81)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #143 pc 0000bf38  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #144 pc 0000ca6f  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #145 pc 00010bb2  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #146 pc 00010f65  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libjnidispatch.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #147 pc 0042111a  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #148 pc 005e6510  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.247 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #149 pc 001fc50b  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #150 pc 0048ae60  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #151 pc 010c2c57  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (__rust_maybe_catch_panic+39)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #152 pc 002c4138  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #153 pc 010b387a  /data/app/com.example.indyprototype-0rn3EpK0fOoyymai4gQqpg==/lib/x86/libindy.so (???)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #154 pc 0008f065  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   native: #155 pc 0002485b  /system/lib/libc.so (__start_thread+75)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Native.invokeInt(Native method)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Function.invoke(Function.java:419)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Function.invoke(Function.java:354)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.Library$Handler.invoke(Library.java:244)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Proxy.invoke(Proxy.java:1006)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.LibIndy$API.indy_get_current_error(LibIndy.java:-2)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>(IndyException.java:74)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException$ErrorDetails.<init>(IndyException.java:67)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException.<init>(IndyException.java:36)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.WalletExistsException.<init>(WalletExistsException.java:19)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyException.fromSdkError(IndyException.java:126)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.IndyJava$API.checkResult(IndyJava.java:92)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.Wallet.access$100(Wallet.java:19)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at org.hyperledger.indy.sdk.wallet.Wallet$1.callback(Wallet.java:51)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at java.lang.reflect.Method.invoke(Native method)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.CallbackReference$DefaultCallbackProxy.invokeCallback(CallbackReference.java:520)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558]   at com.sun.jna.CallbackReference$DefaultCallbackProxy.callback(CallbackReference.java:551)
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/e.indyprototyp: runtime.cc:558] 
+2019-04-09 16:06:13.248 24930-24950/com.example.indyprototype A/libc: Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 24950 (Thread-22), pid 24930 (e.indyprototype)
